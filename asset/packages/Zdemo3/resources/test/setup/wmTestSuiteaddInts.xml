@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="wmTestSuiteaddInts.xml">
+    <webMethodsTestCase name="SuccessCase">
+        <service folder="zdemo3" name="addInts">
+            <input>
+                <file filename="resources/test/data/myInputs.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/myOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
