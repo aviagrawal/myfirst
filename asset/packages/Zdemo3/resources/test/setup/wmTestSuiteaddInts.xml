@@ -10,4 +10,14 @@
             </expected>
         </service>
     </webMethodsTestCase>
+    <webMethodsTestCase name="ExceptionCase">
+        <service folder="zdemo3" name="addInts">
+            <input>
+                <file/>
+            </input>
+            <expected>
+                <file/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
 </webMethodsTestSuite>
